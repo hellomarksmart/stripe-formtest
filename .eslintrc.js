@@ -1,9 +1,22 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true,
+    es2021: true,
   },
-  extends: ["airbnb", "prettier", "plugin:react-hooks/recommended"],
-  plugins: ["react", "prettier", "react-hooks"],
-  rules: { "react/prop-types": 0 },
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+  ],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 12,
+    sourceType: 'module',
+  },
+  plugins: [
+    'react',
+  ],
+  rules: {
+  },
 };
