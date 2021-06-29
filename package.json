@@ -4,6 +4,8 @@
   "version": "2.20.11",
   "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.18.0",
+    "@aws-sdk/util-dynamodb": "^3.18.0",
     "axios": "^0.21.1",
     "formik": "^2.2.9",
     "gatsby": "^3.0.1",
@@ -40,6 +42,8 @@
     "react-helmet": "^6.1.0",
     "react-share": "^4.4.0",
     "react-twitter-widgets": "^1.9.5",
+    "stripe": "^8.156.0",
+    "url": "^0.11.0",
     "url-join": "^4.0.0"
   },
   "devDependencies": {
